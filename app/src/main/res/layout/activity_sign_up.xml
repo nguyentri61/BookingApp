@@ -75,11 +75,13 @@
                 android:text="User Name"
                 android:alpha="0.7"
                 android:textStyle="bold"/>
+
             <EditText
+                android:id="@+id/textUserName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:inputType="text"/>
+                android:inputType="text"
+                android:padding="16dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -91,12 +93,14 @@
                 android:text="Email Address"
                 android:alpha="0.7"
                 android:textStyle="bold"/>
+
             <EditText
+                android:id="@+id/textEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
+                android:drawableEnd="@drawable/check_icon"
                 android:inputType="textEmailAddress"
-                android:drawableEnd="@drawable/check_icon"/>
+                android:padding="16dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -108,12 +112,14 @@
                 android:text="Password"
                 android:alpha="0.7"
                 android:textStyle="bold"/>
+
             <EditText
+                android:id="@+id/textPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/password_icon"
                 android:inputType="textPassword"
-                android:padding="16dp"
-                android:drawableEnd="@drawable/password_icon"/>
+                android:padding="16dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -125,12 +131,14 @@
                 android:text="Password Again"
                 android:alpha="0.7"
                 android:textStyle="bold"/>
+
             <EditText
+                android:id="@+id/textPassAgain"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/password_icon"
                 android:inputType="textPassword"
-                android:padding="16dp"
-                android:drawableEnd="@drawable/password_icon"/>
+                android:padding="16dp" />
 
             <!--            <RelativeLayout-->
             <!--                android:layout_width="match_parent"-->
@@ -158,9 +166,10 @@
                 android:layout_height="10dp"/>
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="SIGN UP"/>
+                android:text="SIGN UP" />
 
             <View
                 android:layout_width="wrap_content"
