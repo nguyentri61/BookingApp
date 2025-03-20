@@ -41,7 +41,7 @@ public class SignInActivity extends AppCompatActivity {
 
 
         // Khởi tạo Retrofit để gọi API
-        authAPI = RetrofitClient.getClient("http://10.0.2.2:8080").create(AuthAPI.class);
+        authAPI = RetrofitClient.getClient("http://10.0.2.2:8080/").create(AuthAPI.class);
 
 
         //Thực thi khi bấm nút đăng nhập

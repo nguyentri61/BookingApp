@@ -53,7 +53,7 @@ public class SignUpActivity extends AppCompatActivity {
         });
 
         // Khởi tạo Retrofit để gọi API
-            authAPI = RetrofitClient.getClient("http://10.0.2.2:8080") // Thay bằng URL API thật
+            authAPI = RetrofitClient.getClient("http://10.0.2.2:8080/") // Thay bằng URL API thật
                     .create(AuthAPI.class);
 
         // Xử lý sự kiện khi người dùng nhấn nút đăng ký
